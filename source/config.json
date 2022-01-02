@@ -260,7 +260,9 @@
 				"minecraft:mossy_cobblestone",
 				"minecraft:stone",
 				"minecraft:basalt",
-				"minecraft:blackstone"
+				"minecraft:blackstone",
+				"minecraft:cobbled_deepslate",
+				"minecraft:deepslate"
 			]
 		},
 		{
@@ -331,7 +333,25 @@
 				"minecraft:polished_blackstone_bricks",
 				"minecraft:polished_blackstone_brick_slab",
 				"minecraft:polished_blackstone_brick_stairs",
-				"minecraft:cracked_polished_blackstone_bricks"
+				"minecraft:cracked_polished_blackstone_bricks",
+				"minecraft:polished_deepslate",
+				"minecraft:deepslate_bricks",
+				"minecraft:cracked_deepslate_bricks",
+				"minecraft:deepslate_tiles",
+				"minecraft:cracked_deepslate_tiles",
+				"minecraft:chiseled_deepslate",
+				"minecraft:cobbled_deepslate_wall",
+				"minecraft:polished_deepslate_wall",
+				"minecraft:deepslate_brick_wall",
+				"minecraft:deepslate_tile_wall",
+				"minecraft:cobbled_deepslate_stairs",
+				"minecraft:polished_deepslate_stairs",
+				"minecraft:deepslate_brick_stairs",
+				"minecraft:deepslate_tile_stairs",
+				"minecraft:cobbled_deepslate_slab",
+				"minecraft:polished_deepslate_slab",
+				"minecraft:deepslate_brick_slab",
+				"minecraft:deepslate_tile_slab"
 			]
 		},
 		{
