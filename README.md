@@ -1838,7 +1838,7 @@ The Ores group contains ore blocks, including iron, gold, coal, emerald, lapis, 
 #### Smelt
 | Group ID | Items | Fallback Group | Item Frame | Image |
 |----------|-------|----------------|------------|-------|
-| `smelt` | 4 | Ores | `minecraft:iron_ingot` | <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/4/44/InvSprite.png/revision/latest?cb=20211227161337&version=1640621633208&format=original" width="32" height="32"> |
+| `smelt` | 4 | Ores | `minecraft:iron_ingot` | <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/f/fc/Iron_Ingot_JE3_BE2.png/revision/latest/scale-to-width-down/160?cb=20200523233216" width="32" height="32"> |
 
 The Smelt group contains items that players would want to have sent to an autosmelter system.
 
@@ -1847,10 +1847,10 @@ The Smelt group contains items that players would want to have sent to an autosm
 
 | Item ID | Image |
 |---------|-------|
-| `minecraft:raw_copper` | <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/4/44/InvSprite.png/revision/latest?cb=20211227161337&version=1640621633208&format=original" width="32" height="32"> |
-| `minecraft:raw_gold` | <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/4/44/InvSprite.png/revision/latest?cb=20211227161337&version=1640621633208&format=original" width="32" height="32"> |
+| `minecraft:raw_copper` | <img src="hhttps://static.wikia.nocookie.net/minecraft_gamepedia/images/1/1b/Raw_Copper_JE3_BE2.png/revision/latest?cb=20210421181404" width="32" height="32"> |
+| `minecraft:raw_gold` | <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/6/6f/Raw_Gold_JE3_BE2.png/revision/latest?cb=20210421181423" width="32" height="32"> |
 | `minecraft:raw_iron` | <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/d2/Raw_Iron_JE3_BE2.png/revision/latest?cb=20210421181435" width="32" height="32"> |
-| `minecraft:ancient_debris` | <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/4/44/InvSprite.png/revision/latest?cb=20211227161337&version=1640621633208&format=original" width="32" height="32"> |
+| `minecraft:ancient_debris` | <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/4/4c/Ancient_Debris_JE1_BE1.png/revision/latest?cb=20200216200020" width="32" height="32"> |
 
 </p>
 </details>
