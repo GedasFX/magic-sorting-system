@@ -1823,9 +1823,12 @@ The Ores group contains ore blocks, including iron, gold, coal, emerald, lapis, 
 | Item ID | Image |
 |---------|-------|
 | `minecraft:coal_ore` | <img src="https://pixlcore.com/software/mss/images/coal_ore.png?v=3" width="32" height="32"> |
+| `minecraft:raw_copper_block` | <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/9/94/Block_of_Raw_Copper_JE2_BE2.png/revision/latestcb=20210428170229" width="32" height="32"> |
 | `minecraft:emerald_ore` | <img src="https://pixlcore.com/software/mss/images/emerald_ore.png?v=3" width="32" height="32"> |
 | `minecraft:gold_ore` | <img src="https://pixlcore.com/software/mss/images/gold_ore.png?v=3" width="32" height="32"> |
+| `minecraft:raw_gold_block` | <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/a/a7/Block_of_Raw_Gold_JE3_BE2.png/revision/latest?cb=20210428170557" width="32" height="32"> |
 | `minecraft:iron_ore` | <img src="https://pixlcore.com/software/mss/images/iron_ore.png?v=3" width="32" height="32"> |
+| `minecraft:raw_iron_block` | <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/7/74/Block_of_Raw_Iron_JE3_BE2.png/revision/latest?cb=20210428165917" width="32" height="32"> |
 | `minecraft:lapis_ore` | <img src="https://pixlcore.com/software/mss/images/lapis_ore.png?v=3" width="32" height="32"> |
 | `minecraft:nether_quartz_ore` | <img src="https://pixlcore.com/software/mss/images/nether_quartz_ore.png?v=3" width="32" height="32"> |
 | `minecraft:nether_gold_ore` | <img src="https://pixlcore.com/software/mss/images/nether_gold_ore.png?v=3" width="32" height="32"> |
