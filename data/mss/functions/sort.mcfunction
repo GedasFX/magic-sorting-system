@@ -959,7 +959,7 @@ execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:shroomlight"}}] ru
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:crying_obsidian"}}] run function mss:sort_nether
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:raw_gold"}}] run function mss:sort_smelt
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:raw_iron"}}] run function mss:sort_smelt
-execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:lapis_ore"}}] run function mss:sort_smelt
+execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:raw_copper"}}] run function mss:sort_smelt
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:ancient_debris"}}] run function mss:sort_smelt
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:coal_ore"}}] run function mss:sort_ores
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:raw_copper_block"}}] run function mss:sort_ores

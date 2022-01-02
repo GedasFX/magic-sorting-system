@@ -96,6 +96,7 @@ Are you upgrading from Magic Sorting System v1.0?  Version 2.0 has been complete
 		+ [Ink](#ink)
 		+ [Nether](#nether)
 		+ [Ores](#ores)
+			- [Smelt](#smelt)
 		+ [Redstone](#redstone)
 		+ [End](#end)
 		+ [Music](#music)
@@ -1812,9 +1813,9 @@ The Nether group contains items found in the nether, including netherrack, nethe
 
 | Group ID | Items | Fallback Group | Item Frame | Image |
 |----------|-------|----------------|------------|-------|
-| `ores` | 9 | Misc | `minecraft:iron_ore` | <img src="https://pixlcore.com/software/mss/images/iron_ore.png?v=3" width="32" height="32"> |
+| `ores` | 9 | Misc | `minecraft:raw_iron` | <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/4/44/InvSprite.png/revision/latest?cb=20211227161337&version=1640621633208&format=original" width="32" height="32"> |
 
-The Ores group contains ore blocks ready for smelting, including iron, gold, coal, emerald, lapis, nether quartz and restone ore.  **It explicitly excludes diamond ore**, because it is assumed you would rather not have that auto-smelted, and instead want to mine it with a fortune pick.
+The Ores group contains ore blocks, including iron, gold, coal, emerald, lapis, nether quartz and restone ore. This goup is intended to separate auto-smelting, as it is assumed that you'd want to mine these with a fortune pick.
 
 <details><summary>Click to Show Ores Items</summary>
 <p>
@@ -1830,6 +1831,26 @@ The Ores group contains ore blocks ready for smelting, including iron, gold, coa
 | `minecraft:nether_gold_ore` | <img src="https://pixlcore.com/software/mss/images/nether_gold_ore.png?v=3" width="32" height="32"> |
 | `minecraft:redstone_ore` | <img src="https://pixlcore.com/software/mss/images/redstone_ore.png?v=3" width="32" height="32"> |
 | `minecraft:ancient_debris` | <img src="https://pixlcore.com/software/mss/images/ancient_debris.png?v=3" width="32" height="32"> |
+
+</p>
+</details>
+
+#### Smelt
+| Group ID | Items | Fallback Group | Item Frame | Image |
+|----------|-------|----------------|------------|-------|
+| `smelt` | 4 | Ores | `minecraft:iron_ingot` | <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/4/44/InvSprite.png/revision/latest?cb=20211227161337&version=1640621633208&format=original" width="32" height="32"> |
+
+The Smelt group contains items that players would want to have sent to an autosmelter system.
+
+<details><summary>Click to Show Smelt Items</summary>
+<p>
+
+| Item ID | Image |
+|---------|-------|
+| `minecraft:raw_copper` | <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/4/44/InvSprite.png/revision/latest?cb=20211227161337&version=1640621633208&format=original" width="32" height="32"> |
+| `minecraft:raw_gold` | <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/4/44/InvSprite.png/revision/latest?cb=20211227161337&version=1640621633208&format=original" width="32" height="32"> |
+| `minecraft:raw_iron` | <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/4/44/InvSprite.png/revision/latest?cb=20211227161337&version=1640621633208&format=original" width="32" height="32"> |
+| `minecraft:ancient_debris` | <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/4/44/InvSprite.png/revision/latest?cb=20211227161337&version=1640621633208&format=original" width="32" height="32"> |
 
 </p>
 </details>
