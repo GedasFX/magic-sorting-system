@@ -1813,7 +1813,7 @@ The Nether group contains items found in the nether, including netherrack, nethe
 
 | Group ID | Items | Fallback Group | Item Frame | Image |
 |----------|-------|----------------|------------|-------|
-| `ores` | 9 | Misc | `minecraft:raw_iron` | <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/4/44/InvSprite.png/revision/latest?cb=20211227161337&version=1640621633208&format=original" width="32" height="32"> |
+| `ores` | 9 | Misc | `minecraft:raw_iron` | <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/d2/Raw_Iron_JE3_BE2.png/revision/latest?cb=20210421181435" width="32" height="32"> |
 
 The Ores group contains ore blocks, including iron, gold, coal, emerald, lapis, nether quartz and restone ore. This goup is intended to separate auto-smelting, as it is assumed that you'd want to mine these with a fortune pick.
 
@@ -1849,7 +1849,7 @@ The Smelt group contains items that players would want to have sent to an autosm
 |---------|-------|
 | `minecraft:raw_copper` | <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/4/44/InvSprite.png/revision/latest?cb=20211227161337&version=1640621633208&format=original" width="32" height="32"> |
 | `minecraft:raw_gold` | <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/4/44/InvSprite.png/revision/latest?cb=20211227161337&version=1640621633208&format=original" width="32" height="32"> |
-| `minecraft:raw_iron` | <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/4/44/InvSprite.png/revision/latest?cb=20211227161337&version=1640621633208&format=original" width="32" height="32"> |
+| `minecraft:raw_iron` | <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/d2/Raw_Iron_JE3_BE2.png/revision/latest?cb=20210421181435" width="32" height="32"> |
 | `minecraft:ancient_debris` | <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/4/44/InvSprite.png/revision/latest?cb=20211227161337&version=1640621633208&format=original" width="32" height="32"> |
 
 </p>
