@@ -1252,7 +1252,7 @@ The Mobs group contains all organic items dropped from mobs.  This includes bone
 
 | Group ID | Items | Fallback Group | Item Frame | Image |
 |----------|-------|----------------|------------|-------|
-| `precious` | 21 | Misc | `minecraft:gold_ingot` | <img src="https://pixlcore.com/software/mss/images/gold_ingot.png?v=3" width="32" height="32"> |
+| `precious` | 20 | Misc | `minecraft:gold_ingot` | <img src="https://pixlcore.com/software/mss/images/gold_ingot.png?v=3" width="32" height="32"> |
 
 The Precious group contains items that can be classified as expensive or rare, like ingots, nuggets, elytra wings, nether stars, totems, tridents, hearts of the sea, beacons and conduits.
 
@@ -1265,7 +1265,6 @@ The Precious group contains items that can be classified as expensive or rare, l
 | `minecraft:conduit` | <img src="https://pixlcore.com/software/mss/images/conduit.png?v=3" width="32" height="32"> |
 | `minecraft:diamond` | <img src="https://pixlcore.com/software/mss/images/diamond.png?v=3" width="32" height="32"> |
 | `minecraft:diamond_block` | <img src="https://pixlcore.com/software/mss/images/diamond_block.png?v=3" width="32" height="32"> |
-| `minecraft:diamond_ore` | <img src="https://pixlcore.com/software/mss/images/diamond_ore.png?v=3" width="32" height="32"> |
 | `minecraft:elytra` | <img src="https://pixlcore.com/software/mss/images/elytra.png?v=3" width="32" height="32"> |
 | `minecraft:emerald` | <img src="https://pixlcore.com/software/mss/images/emerald.png?v=3" width="32" height="32"> |
 | `minecraft:emerald_block` | <img src="https://pixlcore.com/software/mss/images/emerald_block.png?v=3" width="32" height="32"> |
@@ -1815,7 +1814,7 @@ The Nether group contains items found in the nether, including netherrack, nethe
 
 | Group ID | Items | Fallback Group | Item Frame | Image |
 |----------|-------|----------------|------------|-------|
-| `ores` | 8 | Misc | `minecraft:raw_iron` | <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/d2/Raw_Iron_JE3_BE2.png/revision/latest?cb=20210421181435" width="32" height="32"> |
+| `ores` | 10 | Misc | `minecraft:raw_iron` | <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/d2/Raw_Iron_JE3_BE2.png/revision/latest?cb=20210421181435" width="32" height="32"> |
 
 The Ores group contains ore blocks, including iron, gold, coal, emerald, lapis, nether quartz and restone ore. This goup is intended to separate auto-smelting, as it is assumed that you'd want to mine these with a fortune pick.
 
@@ -1826,6 +1825,7 @@ The Ores group contains ore blocks, including iron, gold, coal, emerald, lapis, 
 |---------|-------|
 | `minecraft:coal_ore` | <img src="https://pixlcore.com/software/mss/images/coal_ore.png?v=3" width="32" height="32"> |
 | `minecraft:raw_copper_block` | <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/9/94/Block_of_Raw_Copper_JE2_BE2.png/revision/latest?cb=20210428170229" width="32" height="32"> |
+| `minecraft:diamond_ore` | <img src="https://pixlcore.com/software/mss/images/diamond_ore.png?v=3" width="32" height="32"> |
 | `minecraft:emerald_ore` | <img src="https://pixlcore.com/software/mss/images/emerald_ore.png?v=3" width="32" height="32"> |
 | `minecraft:gold_ore` | <img src="https://pixlcore.com/software/mss/images/gold_ore.png?v=3" width="32" height="32"> |
 | `minecraft:raw_gold_block` | <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/a/a7/Block_of_Raw_Gold_JE3_BE2.png/revision/latest?cb=20210428170557" width="32" height="32"> |
@@ -2033,10 +2033,6 @@ A. If you have multiple magic sorting systems in the same world or on the same s
 **Q. Why do some of my items keep teleporting back to ME?**
 
 A. This happens when a suitable [item frame](https://minecraft.gamepedia.com/Item_Frame) cannot be found for the items, which can happen for a number of reasons.  First, make sure you have an item frame displaying the *correct item* that matches the target group.  This may not be the exact item in your inventory, but rather a specific item that represents the whole group.  See [Groups](#groups) for a list of these special items -- the item frames must contain those *exact* items!  Second, the item frame must be within 8 chunks (128 blocks) of the controller (drop-off chest), and the chunks all have to be loaded.  Finally, you may not have a [misc category](#misc) setup.  That is, you need an item frame with a [carrot on a stick](https://minecraft.gamepedia.com/Carrot_on_a_Stick), which is a universal catch-all for all unsorted items.  Add this to catch all the items that you don't have specific groups for.
-
-**Q. Why isn't diamond ore sorted into the ores group?**
-
-A. This was actually a deliberate decision when we made the data pack.  We assumed that most of the time, the player would not want diamond ore to be auto-smelted (which is probably where the ores group gets routed -- i.e. into a smelter).  It is more likely that the player would want to break the diamond ore themselves, using a fortune pick.  That being said, if *you* want diamond ore sorted into *your* ores group, you can edit the `config.json` file and rebuild the data pack to your liking!  See [Development](#development) for details.
 
 **Q. Why not simply teleport items to the _nearest_ matching item frame?  Then you wouldn't even need a maximum teleport distance!**
 
