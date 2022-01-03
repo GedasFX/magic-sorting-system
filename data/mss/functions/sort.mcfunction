@@ -655,7 +655,6 @@ execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:beacon"}}] run fun
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:conduit"}}] run function mss:sort_precious
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:diamond"}}] run function mss:sort_precious
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:diamond_block"}}] run function mss:sort_precious
-execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:diamond_ore"}}] run function mss:sort_precious
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:elytra"}}] run function mss:sort_precious
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:emerald"}}] run function mss:sort_precious
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:emerald_block"}}] run function mss:sort_precious
@@ -973,6 +972,7 @@ execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:raw_copper"}}] run
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:ancient_debris"}}] run function mss:sort_smelt
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:coal_ore"}}] run function mss:sort_ores
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:raw_copper_block"}}] run function mss:sort_ores
+execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:diamond_ore"}}] run function mss:sort_ores
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:emerald_ore"}}] run function mss:sort_ores
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:gold_ore"}}] run function mss:sort_ores
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:raw_gold_block"}}] run function mss:sort_ores

@@ -793,7 +793,6 @@
 				"minecraft:conduit",
 				"minecraft:diamond",
 				"minecraft:diamond_block",
-				"minecraft:diamond_ore",
 				"minecraft:elytra",
 				"minecraft:emerald",
 				"minecraft:emerald_block",
@@ -1223,6 +1222,7 @@
 			"items": [
 				"minecraft:coal_ore",
 				"minecraft:raw_copper_block",
+				"minecraft:diamond_ore",
 				"minecraft:emerald_ore",
 				"minecraft:gold_ore",
 				"minecraft:raw_gold_block",
