@@ -2,9 +2,9 @@
 
 ![Main Screenshot](https://pixlcore.com/software/mss/screenshots/v2/main-v2.png)
 
-The **Magic Sorting System** is a free [Data Pack](https://minecraft.gamepedia.com/Data_pack) available for [Minecraft](https://minecraft.net/) v1.13, v1.14, v1.15 and v1.16 (Java edition).  It provides an easy way to craft an automatic, extensible item sorting system, which does not require redstone, nor console commands, nor command blocks.  Items are teleported to matching item frames, where they can be routed via hoppers into chests or furnaces (so it still requires considerable resources and building).  The whole system can be entirely built in survival mode, and supports both single and multiplayer (local or server install).
+The **Magic Sorting System** is a free [Data Pack](https://minecraft.gamepedia.com/Data_pack) available for [Minecraft](https://minecraft.net/) v1.18 (Java edition).  It provides an easy way to craft an automatic, extensible item sorting system, which does not require redstone, nor console commands, nor command blocks.  Items are teleported to matching item frames, where they can be routed via hoppers into chests or furnaces (so it still requires considerable resources and building).  The whole system can be entirely built in survival mode, and supports both single and multiplayer (local or server install).
 
-The sorting system works by providing a special magic drop off area, where you can dump any number of unsorted items (for e.g. when you come back from a mining trip), and they will be automatically sorted into [39 different categories](#groups), each with its own item frame.  Note that you do not need all 39 categories to start out -- you can progressively build your storage system over time, and have it look however you want.  You can also provide a "misc" (catch-all) category, which catches all items which don't have their own group built.
+The sorting system works by providing a special magic drop off area, where you can dump any number of unsorted items (for e.g. when you come back from a mining trip), and they will be automatically sorted into [40 different categories](#groups), each with its own item frame.  Note that you do not need all 40 categories to start out -- you can progressively build your storage system over time, and have it look however you want.  You can also provide a "misc" (catch-all) category, which catches all items which don't have their own group built.
 
 Items are teleported directly to their matching [item frames](https://minecraft.gamepedia.com/Item_Frame) for the category.  The idea is that you can place a [hopper](https://minecraft.gamepedia.com/Hopper) directly under each item frame, which then routes the items into a connected chest (or multiple chests), or furnaces for auto-smelting.  Item routing and storing is left up to the player, which can be simple or quite complex.
 
@@ -111,7 +111,7 @@ Are you upgrading from Magic Sorting System v1.0?  Version 2.0 has been complete
 
 # Installation
 
-To install the data pack, download the latest ZIP file from the [releases page](https://github.com/jhuckaby/magic-sorting-system/releases), unzip the file, and copy the `magic-sorting-system-#.#.#` folder into your `datapacks` folder for your Minecraft world.  Here are specific instructions for single and multiplayer:
+To install the data pack, download the latest ZIP file from the [releases page](https://github.com/Greaper88/magic-sorting-system/releases), unzip the file, and copy the `magic-sorting-system-#.#.#` folder into your `datapacks` folder for your Minecraft world.  Here are specific instructions for single and multiplayer:
 
 ## Single Player
 
