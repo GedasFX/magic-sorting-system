@@ -1905,6 +1905,9 @@ The copper group contains all copper items except Raw Copper Blocks, Copper Ore,
 | `minecraft:waxed_weathered_cut_copper_slab` | <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/0/0e/Weathered_Cut_Copper_Slab_JE1_BE1.png/revision/latest?cb=20201126034540"  width="32" height="32"> |
 | `minecraft:waxed_oxidized_cut_copper_slab` | <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/d6/Oxidized_Cut_Copper_Slab_JE1_BE1.png/revision/latest?cb=20201126034547"  width="32" height="32"> |
 
+</p>
+</details>
+
 ### Redstone
 
 | Group ID | Items | Fallback Group | Item Frame | Image |
