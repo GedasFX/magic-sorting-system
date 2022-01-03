@@ -1000,9 +1000,13 @@ execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:exposed_cut_copper
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:weathered_cut_copper_slab"}}] run function mss:sort_copper
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:oxidized_cut_copper_slab"}}] run function mss:sort_copper
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:waxed_copper_block"}}] run function mss:sort_copper
-execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:waxed_exposed_copper_block"}}] run function mss:sort_copper
-execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:waxed_weathered_copper_block"}}] run function mss:sort_copper
-execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:waxed_oxidized_copper_block"}}] run function mss:sort_copper
+execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:waxed_exposed_copper"}}] run function mss:sort_copper
+execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:waxed_weathered_copper"}}] run function mss:sort_copper
+execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:waxed_oxidized_copper"}}] run function mss:sort_copper
+execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:waxed_cut_copper"}}] run function mss:sort_copper
+execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:waxed_exposed_cut_copper"}}] run function mss:sort_copper
+execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:waxed_weathered_cut_copper"}}] run function mss:sort_copper
+execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:waxed_oxidized_cut_copper"}}] run function mss:sort_copper
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:waxed_cut_copper_stairs"}}] run function mss:sort_copper
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:waxed_exposed_cut_copper_stairs"}}] run function mss:sort_copper
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:waxed_weathered_cut_copper_stairs"}}] run function mss:sort_copper

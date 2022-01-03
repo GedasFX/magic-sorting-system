@@ -1859,6 +1859,52 @@ The Smelt group contains items that players would want to have sent to an autosm
 </p>
 </details>
 
+### Copper
+| Group ID | Items | Fallback Group | Item Frame | Image |
+|----------|-------|----------------|------------|-------|
+|`copper` | 32 | Misc | `minecraft:raw_copper` | <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/1/1b/Raw_Copper_JE3_BE2.png/revision/latest?cb=20210421181404" width="32" height="32"> |
+
+The copper group contains all copper items except Raw Copper Blocks, Copper Ore, and Raw Copper.
+
+<details><summary>Click to Show Copper Items</summary>
+<p>
+
+| Item ID | Image |
+|---------|-------|
+| `minecraft:copper_ingot` | <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/9/91/Copper_Ingot_JE2_BE1.png/revision/latest?cb=20201111183617"  width="32" height="32"> |
+| `minecraft:copper_block` | <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/8/86/Copper_Block_JE1_BE1.png/revision/latest?cb=20210109051126"  width="32" height="32"> |
+| `minecraft:exposed_copper` | <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/7/7a/Exposed_Copper_Block_JE1_BE1.png/revision/latest?cb=20210109051220"  width="32" height="32"> |
+| `minecraft:weathered_copper` | <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/d4/Weathered_Copper_Block_JE1_BE1.png/revision/latest?cb=20210109051234"  width="32" height="32"> |
+| `minecraft:oxidized_copper` | <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/6/6e/Oxidized_Copper_Block_JE1_BE1.png/revision/latest?cb=20210109051242"  width="32" height="32"> |
+| `minecraft:cut_copper` | <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/7/71/Cut_Copper_JE2_BE1.png/revision/latest?cb=20210109051538"  width="32" height="32"> |
+| `minecraft:exposed_cut_copper` | <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/8/81/Exposed_Cut_Copper_JE1_BE1.png/revision/latest?cb=20210109051259"  width="32" height="32"> |
+| `minecraft:weathered_cut_copper` | <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/e/e5/Weathered_Cut_Copper_JE1_BE1.png/revision/latest?cb=20210109051306"  width="32" height="32"> |
+| `minecraft:oxidized_cut_copper` | <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/7/7e/Oxidized_Cut_Copper_JE1_BE1.png/revision/latest?cb=20210109051316"  width="32" height="32"> |
+| `minecraft:cut_copper_stairs` | <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/6/65/Cut_Copper_Stairs_%28N%29_JE2_BE1.png/revision/latest?cb=20201112135026"  width="32" height="32"> |
+| `minecraft:exposed_cut_copper_stairs` | <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/4/44/Exposed_Cut_Copper_Stairs_%28N%29_JE1_BE1.png/revision/latest?cb=20201106125426"  width="32" height="32"> |
+| `minecraft:weathered_cut_copper_stairs` | <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/b/bd/Weathered_Cut_Copper_Stairs_%28N%29_JE1_BE1.png/revision/latest?cb=20201106125552"  width="32" height="32"> |
+| `minecraft:oxidized_cut_copper_stairs` | <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/e/ea/Oxidized_Cut_Copper_Stairs_%28N%29_JE1_BE1.png/revision/latest?cb=20201106125658"  width="32" height="32"> |
+| `minecraft:cut_copper_slab` | <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/59/Cut_Copper_Slab_JE2_BE1.png/revision/latest?cb=20201112041357"  width="32" height="32"> |
+| `minecraft:exposed_cut_copper_slab` | <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/1/10/Exposed_Cut_Copper_Slab_JE1_BE1.png/revision/latest?cb=20201126034618"  width="32" height="32"> |
+| `minecraft:weathered_cut_copper_slab` | <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/0/0e/Weathered_Cut_Copper_Slab_JE1_BE1.png/revision/latest?cb=20201126034540"  width="32" height="32"> |
+| `minecraft:oxidized_cut_copper_slab` | <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/d6/Oxidized_Cut_Copper_Slab_JE1_BE1.png/revision/latest?cb=20201126034547"  width="32" height="32"> |
+| `minecraft:waxed_copper_block` | <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/8/86/Copper_Block_JE1_BE1.png/revision/latest?cb=20210109051126"  width="32" height="32"> |
+| `minecraft:waxed_exposed_copper` | <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/7/7a/Exposed_Copper_Block_JE1_BE1.png/revision/latest?cb=20210109051220"  width="32" height="32"> |
+| `minecraft:waxed_weathered_copper` | <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/d4/Weathered_Copper_Block_JE1_BE1.png/revision/latest?cb=20210109051234"  width="32" height="32"> |
+| `minecraft:waxed_oxidized_copper` | <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/6/6e/Oxidized_Copper_Block_JE1_BE1.png/revision/latest?cb=20210109051242"  width="32" height="32"> |
+| `minecraft:waxed_cut_copper` | <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/7/71/Cut_Copper_JE2_BE1.png/revision/latest?cb=20210109051538"  width="32" height="32"> |
+| `minecraft:waxed_exposed_cut_copper` | <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/8/81/Exposed_Cut_Copper_JE1_BE1.png/revision/latest?cb=20210109051259"  width="32" height="32"> |
+| `minecraft:waxed_weathered_cut_copper` | <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/e/e5/Weathered_Cut_Copper_JE1_BE1.png/revision/latest?cb=20210109051306"  width="32" height="32"> |
+| `minecraft:waxed_oxidized_cut_copper` | <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/7/7e/Oxidized_Cut_Copper_JE1_BE1.png/revision/latest?cb=20210109051316"  width="32" height="32"> |
+| `minecraft:waxed_cut_copper_stairs` | <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/6/65/Cut_Copper_Stairs_%28N%29_JE2_BE1.png/revision/latest?cb=20201112135026"  width="32" height="32"> |
+| `minecraft:waxed_exposed_cut_copper_stairs` | <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/4/44/Exposed_Cut_Copper_Stairs_%28N%29_JE1_BE1.png/revision/latest?cb=20201106125426"  width="32" height="32"> |
+| `minecraft:waxed_weathered_cut_copper_stairs` | <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/b/bd/Weathered_Cut_Copper_Stairs_%28N%29_JE1_BE1.png/revision/latest?cb=20201106125552"  width="32" height="32"> |
+| `minecraft:waxed_oxidized_cut_copper_stairs` | <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/e/ea/Oxidized_Cut_Copper_Stairs_%28N%29_JE1_BE1.png/revision/latest?cb=20201106125658"  width="32" height="32"> |
+| `minecraft:waxed_cut_copper_slab` | <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/59/Cut_Copper_Slab_JE2_BE1.png/revision/latest?cb=20201112041357"  width="32" height="32"> |
+| `minecraft:waxed_exposed_cut_copper_slab` | <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/1/10/Exposed_Cut_Copper_Slab_JE1_BE1.png/revision/latest?cb=20201126034618"  width="32" height="32"> |
+| `minecraft:waxed_weathered_cut_copper_slab` | <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/0/0e/Weathered_Cut_Copper_Slab_JE1_BE1.png/revision/latest?cb=20201126034540"  width="32" height="32"> |
+| `minecraft:waxed_oxidized_cut_copper_slab` | <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/d6/Oxidized_Cut_Copper_Slab_JE1_BE1.png/revision/latest?cb=20201126034547"  width="32" height="32"> |
+
 ### Redstone
 
 | Group ID | Items | Fallback Group | Item Frame | Image |
