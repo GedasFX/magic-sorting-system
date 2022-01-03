@@ -12,7 +12,7 @@ Items are teleported directly to their matching [item frames](https://minecraft.
 
 It is already possible to build a complete item sorting and storage system using built-in vanilla Minecraft features.  I've seen some [incredible systems](https://www.youtube.com/watch?v=wsNV9Mo00Gw), and my hat is off to those amazing builders.  However in practice, actually doing it is very difficult and tedious in my experience.  It requires a large amount of hoppers and complex redstone contraptions for filtering.  For example, to filter and store every item in the game, it would take at least 2 hoppers per unique item, or 1,550 hoppers total (3,875 iron ingots).  Doing this in survival mode would take a very long time, and use up an enormous amount of space just for the machinery.
 
-The magic sorting system is designed to make all this much easier to build.  It requires only 1 hopper per category (39 categories total for sorting all items in the game), and handles all the item filtering and routing "magically" (i.e. by automatic item teleportation).  It is server-friendly (lag-free), and it keeps survival gameplay balanced by requiring some expensive resources to start out.
+The magic sorting system is designed to make all this much easier to build.  It requires only 1 hopper per category (40 categories total for sorting all items in the game), and handles all the item filtering and routing "magically" (i.e. by automatic item teleportation).  It is server-friendly (lag-free), and it keeps survival gameplay balanced by requiring some expensive resources to start out.
 
 Players can still build out custom storage systems using hoppers, chests, furnaces and more.  They can be as simple or complex as they want.  The magic sorting system *only* teleports items to special item frames.  The rest is up to the player.
 
@@ -21,7 +21,7 @@ Players can still build out custom storage systems using hoppers, chests, furnac
 - Build and setup everything in pure survival mode
 - Design your storage system to look however you like
 - Progressively add new categories over time
-- Sorts 878 unique items into 39 categories
+- Sorts 878 unique items into 40 categories
 - Unsorted items automatically go into a "misc" group
 - Can have multiple sorting systems in same world (128+ blocks apart)
 - Items are sorted to nearest matching item frames
@@ -179,13 +179,15 @@ For a more advanced auto-controller, see the [Advanced](#advanced) section below
 
 ## Creating an Item Receiver
 
-An "item receiver" is just an [item frame](https://minecraft.gamepedia.com/Item_Frame) that contains a special item which represents one of the [39 groups](#groups).  Then, all items to be sorted within that group will teleport to the item frame.  What happens then?  Well, it's actually entirely up to you!  But the most common thing is to simply place a [hopper](https://minecraft.gamepedia.com/Hopper) underneath the item frame, and route that to a nearby chest.  Example:
+An "item receiver" is just an [item frame](https://minecraft.gamepedia.com/Item_Frame) that contains a special item which represents one of the [40 groups](#groups).  Then, all items to be sorted within that group will teleport to the item frame.  What happens then?  Well, it's actually entirely up to you!  But the most common thing is to simply place a [hopper](https://minecraft.gamepedia.com/Hopper) underneath the item frame, and route that to a nearby chest.  Example:
 
 ![Single Chest Receiver](https://pixlcore.com/software/mss/screenshots/single-chest.png)
 
 In this example, the item frame contains a [block of cobblestone](https://minecraft.gamepedia.com/Cobblestone), which is the item representing the [Stone](#stone) group, so all stone items will be routed here.  They'll teleport to the item frame, drop into hopper and be delivered to the chest.
 
 **Tip:** Make sure you shift-click on the chest when placing the hopper, so it directs the output accordingly.  By default hoppers drop straight down.
+
+**Tip:** Place the item frames directly on top of the hoppers. This helps to ensure the items don't fall to random areas, missing the hopper mouth.
 
 ### Multiple Chests
 
@@ -239,7 +241,7 @@ By default, this item frame with the [kelp](https://minecraft.gamepedia.com/Kelp
 
 So in this case, all prismarine related items would teleport to the item frame with the [prismarine](https://minecraft.gamepedia.com/Prismarine) block, all coral items would teleport to the item frame with the [bubble coral](https://minecraft.gamepedia.com/Coral_Block) block, and all the *other* non-prismarine non-coral ocean items would teleport to the item frame with the [Kelp](https://minecraft.gamepedia.com/Kelp) leaf.  The magic sorting system automatically detects which item frames are on display, and sorts accordingly.
 
-See the [Groups](#groups) section below for a list of all 39 groups and to see how the sub-group hierarchy works.
+See the [Groups](#groups) section below for a list of all 40 groups and to see how the sub-group hierarchy works.
 
 ### Misc Catch-All Group
 
@@ -299,7 +301,7 @@ Feel free to bury the entire thing (leave some air for the redstone to breathe),
 
 ## Groups
 
-Here is a list of all 39 groups in the magic sorting system, how some fallback to others, and all the items they contain.
+Here is a list of all 40 groups in the magic sorting system, how some fallback to others, and all the items they contain.
 
 ### Dirt
 
