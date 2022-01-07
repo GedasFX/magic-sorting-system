@@ -97,6 +97,7 @@ Are you upgrading from Magic Sorting System v1.0?  Version 2.0 has been complete
 		+ [Nether](#nether)
 		+ [Ores](#ores)
 			- [Smelt](#smelt)
+		+ [Copper](#copper)
 		+ [Redstone](#redstone)
 		+ [End](#end)
 		+ [Music](#music)
