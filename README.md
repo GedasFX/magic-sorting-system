@@ -2043,6 +2043,10 @@ A. That is true, however we actually don't want items teleported to the nearest 
 
 A. Sometimes Minecraft treats a stack of items as a "single item with 64 quantity" and thus it gets teleported as one item, to a single item frame.  To fix this, you can "spread out" your stack of items in the drop-off chest, simply by holding down the left mouse button and dragging across the chest dialog, like this:
 
+**Q. What about 1.13 - 1.17 support?**
+
+A. There is no point in me releasing 1.13 - 1.16 support as the original author has these available under the releases of his repo. His versions stop at 1.16.5. As for 1.17, it is "part 1" of a two part release, with 1.18 being the second part. In my personal opinion, there is no reason to make and release a 1.17 version or even host a 1.17 server.
+
 ![Coal Distribution](https://pixlcore.com/software/mss/screenshots/coal-dist.png)
 
 This spread arrangement has a much better chance of load balancing between multiple item frame targets, because the game treats the items as multiple smaller stacks when the chest is broken.
@@ -2152,7 +2156,8 @@ Note that data packs can be installed as a ZIP file, or as a folder.
 
 **The MIT License (MIT)**
 
-*Copyright (c) 2018 - 2020 Joseph Huckaby*
+*Original Copyright (c) 2018 - 2020 Joseph Huckaby*
+*Additional Copyright (c) 2021 - 2022 G.Reaper*
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
