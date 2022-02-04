@@ -266,7 +266,8 @@
 				"minecraft:cobbled_deepslate",
 				"minecraft:deepslate",
 				"minecraft:pointed_dripstone",
-				"minecraft:dripstone_block"
+				"minecraft:dripstone_block",
+				"minecraft:smooth_basalt"
 			]
 		},
 		{

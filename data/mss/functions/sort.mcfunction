@@ -213,6 +213,7 @@ execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:cobbled_deepslate"
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:deepslate"}}] run function mss:sort_stone
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:pointed_dripstone"}}] run function mss:sort_stone
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:dripstone_block"}}] run function mss:sort_stone
+execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:smooth_basalt"}}] run function mss:sort_stone
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:brick"}}] run function mss:sort_stonework
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:brick_slab"}}] run function mss:sort_stonework
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:brick_stairs"}}] run function mss:sort_stonework
