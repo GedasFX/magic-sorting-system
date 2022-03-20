@@ -23,6 +23,26 @@
 			]
 		},
 		{
+			"group_name": "mud",
+			"item_frame": "minecraft:mud",
+			"fallback": "dirt",
+			"items": [
+				"minecraft:mud",
+				"minecraft:packed_mud"
+			]
+		},
+		{
+			"group_name": "mudwork",
+			"item_frame": "mud_bricks",
+			"fallback": "mud",
+			"items": [
+				"minecraft:mud_bricks",
+				"minecraft:mud_brick_slab",
+				"minecraft:mud_brick_stairs",
+				"minecraft:mud_brick_wall"
+			]
+		},
+		{
 			"group_name": "gravel",
 			"item_frame": "minecraft:gravel",
 			"fallback": "dirt",
@@ -111,7 +131,14 @@
 				"minecraft:stripped_crimson_hyphae",
 				"minecraft:stripped_warped_hyphae",
 				"minecraft:crimson_hyphae",
-				"minecraft:warped_hyphae"
+				"minecraft:warped_hyphae",
+				"minecraft:mangrove_log",
+				"minecraft:mangrove_roots",
+				"minecraft:muddy_mangrove_roots",
+				"minecraft:stripped_mangrove_log",
+				"minecraft:stripped_mangrove_wood",
+				"minecraft:mangrove_wood",
+				"minacraft:mangrove_planks"
 			]
 		},
 		{
@@ -230,7 +257,17 @@
 				"minecraft:crimson_door",
 				"minecraft:warped_door",
 				"minecraft:crimson_sign",
-				"minecraft:warped_sign"
+				"minecraft:warped_sign",
+				"minecraft:mangrove_slab",
+				"minecraft:mangrove_fence",
+				"minecraft:mangrove_stairs",
+				"minecraft:mangrove_pressure_plate",
+				"minecraft:mangrove_button",
+				"minecraft:mangrove_door",
+				"minecraft:mangrove_trapdoor",
+				"minecraft:mangrove_fence_gate",
+				"minecraft:mangrove_sign",
+				"minecraft:mangrove_boat"
 			]
 		},
 		{
@@ -608,7 +645,9 @@
 				"minecraft:nether_sprouts",
 				"minecraft:weeping_vines",
 				"minecraft:twisting_vines",
-				"minecraft:warped_wart_block"
+				"minecraft:warped_wart_block",
+				"minecraft:mangrove_propagule",
+				"minecraft:mangrove_leaves"
 			]
 		},
 		{
@@ -1080,7 +1119,11 @@
 				"minecraft:seagrass",
 				"minecraft:sponge",
 				"minecraft:tropical_fish",
-				"minecraft:wet_sponge"
+				"minecraft:wet_sponge",
+				"minecraft:sculk",
+				"minecraft:sculk_vein",
+				"minecraft:sculk_catalyst",
+				"minecraft:sculk_shrieker"	
 			]
 		},
 		{
@@ -1299,7 +1342,8 @@
 				"minecraft:repeater",
 				"minecraft:repeating_command_block",
 				"minecraft:sticky_piston",
-				"minecraft:tripwire_hook"
+				"minecraft:tripwire_hook",
+				"minecraft:sculk_sensor"
 			]
 		},
 		{
