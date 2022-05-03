@@ -607,6 +607,8 @@ execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:feather"}}] run fu
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:fermented_spider_eye"}}] run function mss:sort_mobs
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:ghast_spawn_egg"}}] run function mss:sort_mobs
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:ghast_tear"}}] run function mss:sort_mobs
+execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:goat_horn"}}] run function mss:sort_mobs
+execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:goat_spawn_egg"}}] run function mss:sort_mobs
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:guardian_spawn_egg"}}] run function mss:sort_mobs
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:horse_spawn_egg"}}] run function mss:sort_mobs
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:husk_spawn_egg"}}] run function mss:sort_mobs
