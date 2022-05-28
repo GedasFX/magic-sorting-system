@@ -13,11 +13,13 @@
 			"items": [
 				"minecraft:coarse_dirt",
 				"minecraft:dirt",
+				"minecraft:dirt_path",
 				"minecraft:farmland",
 				"minecraft:grass_block",
 				"minecraft:grass_path",
 				"minecraft:mycelium",
 				"minecraft:podzol",
+				"minecraft:rooted_dirt",
 				"minecraft:crimson_nylium",
 				"minecraft:warped_nylium"
 			]
@@ -155,6 +157,7 @@
 				"minecraft:gray_bed",
 				"minecraft:green_bed",
 				"minecraft:item_frame",
+				"minecraft:glow_item_frame",
 				"minecraft:jungle_boat",
 				"minecraft:jungle_button",
 				"minecraft:jungle_door",
@@ -380,9 +383,11 @@
 				"minecraft:bucket",
 				"minecraft:chipped_anvil",
 				"minecraft:clock",
+				"minecraft:axolotl_bucket",
 				"minecraft:clownfish_bucket",
 				"minecraft:cod_bucket",
 				"minecraft:tropical_fish_bucket",
+				"minecraft:powder_snow_bucket",
 				"minecraft:compass",
 				"minecraft:damaged_anvil",
 				"minecraft:diamond_axe",
@@ -420,6 +425,7 @@
 				"minecraft:salmon_bucket",
 				"minecraft:shears",
 				"minecraft:spectral_arrow",
+				"minecraft:spyglass",
 				"minecraft:stone_axe",
 				"minecraft:stone_hoe",
 				"minecraft:stone_pickaxe",
@@ -549,8 +555,13 @@
 			"items": [
 				"minecraft:acacia_leaves",
 				"minecraft:acacia_sapling",
+				"minecraft:azalea",
+				"minecraft:flowering_azalea",
+				"minecraft:azalea_leaves",
+				"minecraft:flowering_azalea_leaves",
 				"minecraft:beetroot",
 				"minecraft:beetroot_seeds",
+				"minecraft:big_dripleaf",
 				"minecraft:birch_leaves",
 				"minecraft:birch_sapling",
 				"minecraft:brown_mushroom",
@@ -566,6 +577,9 @@
 				"minecraft:dead_bush",
 				"minecraft:fern",
 				"minecraft:grass",
+				"minecraft:glow_berries",
+				"minecraft:glow_lichen",
+				"minecraft:hanging_roots",
 				"minecraft:hay_block",
 				"minecraft:jack_o_lantern",
 				"minecraft:jungle_leaves",
@@ -574,6 +588,8 @@
 				"minecraft:lily_pad",
 				"minecraft:melon",
 				"minecraft:melon_seeds",
+				"minecraft:moss_block",
+				"minecraft:moss_carpet",
 				"minecraft:mushroom_stem",
 				"minecraft:nether_wart",
 				"minecraft:oak_leaves",
@@ -583,6 +599,8 @@
 				"minecraft:pumpkin_seeds",
 				"minecraft:red_mushroom",
 				"minecraft:red_mushroom_block",
+				"minecraft:small_dripleaf",
+				"minecraft:spore_blossom",
 				"minecraft:spruce_leaves",
 				"minecraft:spruce_sapling",
 				"minecraft:sugar_cane",
@@ -711,6 +729,7 @@
 				"minecraft:husk_spawn_egg",
 				"minecraft:infested_chiseled_stone_bricks",
 				"minecraft:infested_cobblestone",
+				"minecraft:infested_deepslate",
 				"minecraft:infested_cracked_stone_bricks",
 				"minecraft:infested_mossy_stone_bricks",
 				"minecraft:infested_stone",
@@ -1049,7 +1068,8 @@
 				"minecraft:white_stained_glass",
 				"minecraft:white_stained_glass_pane",
 				"minecraft:yellow_stained_glass",
-				"minecraft:yellow_stained_glass_pane"
+				"minecraft:yellow_stained_glass_pane",
+				"minecraft:tinted_glass"
 			]
 		},
 		{
@@ -1163,7 +1183,8 @@
 				"minecraft:green_dye",
 				"minecraft:yellow_dye",
 				"minecraft:red_dye",
-				"minecraft:white_dye"
+				"minecraft:white_dye",
+				"minecraft:glow_ink_sac"
 			]
 		},
 		{
@@ -1222,17 +1243,26 @@
 			"fallback": "misc",
 			"items": [
 				"minecraft:coal_ore",
+				"minecraft:deepslate_coal_ore",
+				"minecraft:copper_ore",
+				"minecraft:deepslate_copper_ore",
 				"minecraft:raw_copper_block",
 				"minecraft:diamond_ore",
+				"minecraft:deepslate_diamond_ore",
 				"minecraft:emerald_ore",
+				"minecraft:deepslate_emerald_ore",
 				"minecraft:gold_ore",
+				"minecraft:deepslate_gold_ore",
 				"minecraft:raw_gold_block",
 				"minecraft:iron_ore",
+				"minecraft:deepslate_iron_ore",
 				"minecraft:raw_iron_block",
 				"minecraft:lapis_ore",
+				"minecraft:deepslate_lapis_ore",
 				"minecraft:nether_quartz_ore",
 				"minecraft:nether_gold_ore",
-				"minecraft:redstone_ore"
+				"minecraft:redstone_ore",
+				"minecraft:deepslate_redstone_ore"
 			]
 		},
 		{
@@ -1272,9 +1302,10 @@
 				"minecraft:waxed_cut_copper_slab",
 				"minecraft:waxed_exposed_cut_copper_slab",
 				"minecraft:waxed_weathered_cut_copper_slab",
-				"minecraft:waxed_oxidized_cut_copper_slab"
+				"minecraft:waxed_oxidized_cut_copper_slab",
+				"minecraft:lightning_rod"
 			]
-		},		
+		},
 		{
 			"group_name": "redstone",
 			"item_frame": "minecraft:redstone",
@@ -1298,6 +1329,7 @@
 				"minecraft:redstone_torch",
 				"minecraft:repeater",
 				"minecraft:repeating_command_block",
+				"minecraft:sculk_sensor",
 				"minecraft:sticky_piston",
 				"minecraft:tripwire_hook"
 			]
@@ -1339,8 +1371,33 @@
 				"minecraft:music_disc_wait",
 				"minecraft:music_disc_ward",
 				"minecraft:music_disc_pigstep",
+				"minecraft:music_disc_otherside",
 				"minecraft:note_block",
 				"minecraft:jukebox"
+			]
+		},
+		{
+			"group_name": "candles",
+			"item_frame": "minecraft:candle",
+			"fallback": "misc",
+			"items": [
+				"minecraft:candle",
+				"minecraft:black_candle",
+				"minecraft:blue_candle",
+				"minecraft:brown_candle",
+				"minecraft:cyan_candle",
+				"minecraft:gray_candle",
+				"minecraft:green_candle",
+				"minecraft:light_blue_candle",
+				"minecraft:light_gray_candle",
+				"minecraft:lime_candle",
+				"minecraft:magenta_candle",
+				"minecraft:orange_candle",
+				"minecraft:pink_candle",
+				"minecraft:purple_candle",
+				"minecraft:red_candle",
+				"minecraft:white_candle",
+				"minecraft:yellow_candle"
 			]
 		},
 		{
