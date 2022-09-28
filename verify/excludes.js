@@ -3,7 +3,6 @@ const excludes = [
   /air/,
   /[a-z]+_air/,
   /[a-z_]+_stem/,
-  /big_dripleaf_stem/,
   /beetroots/,
   /candle_cake/,
   /[a-z]+_candle_cake/,
