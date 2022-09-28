@@ -55,6 +55,8 @@ const excludes = [
   /^farmland$/,
   /^infested_\w+$/,
   /^command_block_minecart$/,
+  /^bedrock$/,
+  /^[a-z_]*command_block$/,
 ];
 
 module.exports = excludes;
