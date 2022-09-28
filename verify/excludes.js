@@ -2,7 +2,6 @@ const excludes = [
   // Items impossible to obtain
   /air/,
   /[a-z]+_air/,
-  /[a-z_]+_stem/,
   /beetroots/,
   /candle_cake/,
   /[a-z]+_candle_cake/,
@@ -11,9 +10,12 @@ const excludes = [
   /bubble_column/,
   /carrots/,
   /cave_vines/,
-  /cave_vines_plant/,
   /cocoa/,
-  /[a-z]+_wall_[a-z]+/,
+  /[a-z]+_wall_sign/,
+  /[a-z]+_wall_head/,
+  /[a-z]+_wall_skull/,
+  /[a-z]+_wall_torch/,
+  /wall_torch/,
   /fire/,
   /frosted_ice/,
   /kelp_plant/,
@@ -30,7 +32,11 @@ const excludes = [
   /tripwire/,
   /[a-z]+_vines_plant/,
   /water/,
-  /wall_torch/,
+  /melon_stem/,
+  /attached_melon_stem/,
+  /pumpkin_stem/,
+  /attached_pumpkin_stem/,
+  /big_dripleaf_stem/,
 
   // Items impossible to obtain in survival
   /[a-z_]+_spawn_egg/,
@@ -44,9 +50,9 @@ const excludes = [
   /structure_block/,
   /structure_void/,
   /bundle/,
-
-  // Items covered with the use of tags
-  /music_disc_\w+/
+  /dirt_path/,
+  /farmland/,
+  /infested_\w+/,
 ];
 
 module.exports = excludes;

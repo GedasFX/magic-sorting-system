@@ -31,9 +31,13 @@ async function run() {
   );
 
   const itemsUnaccountedFor = allItems.filter((i) => !(accountedFor.includes(`minecraft:${i}`) || excludes.some((e) => e.test(i))));
+  const wastedCpuCycles = accountedFor.filter(i => excludes.some(e => e.test(i)));
 
   console.log("Items to address:");
   console.log(itemsUnaccountedFor);
+
+  console.log("Items to remove:");
+  console.log(wastedCpuCycles);
 }
 
 run();
