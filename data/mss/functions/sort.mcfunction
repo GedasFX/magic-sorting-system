@@ -1062,4 +1062,3 @@ execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:yellow_candle"}}] 
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:carrot_on_a_stick"}}] run function mss:sort_misc
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:firework_star"}}] run function mss:sort_misc
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:warped_fungus_on_a_stick"}}] run function mss:sort_misc
-execute as @s run function mss:sort_misc
