@@ -45,6 +45,9 @@ const excludes = [
   /structure_block/,
   /structure_void/,
   /bundle/,
+
+  // Items covered with the use of tags
+  /music_disc_\w+/
 ];
 
 module.exports = excludes;
