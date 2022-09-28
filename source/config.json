@@ -95,9 +95,9 @@
 			"items": [
 				"minecraft:#logs",
 				"minecraft:#planks",
-				"minecraft:stick",
 				"minecraft:mangrove_roots",
-				"minecraft:muddy_mangrove_roots"
+				"minecraft:muddy_mangrove_roots",
+				"minecraft:stick"
 			]
 		},
 		{
@@ -118,15 +118,15 @@
 				"minecraft:#wooden_stairs",
 				"minecraft:#wooden_trapdoors",
 				"minecraft:bowl",
+				"minecraft:cartography_table",
+				"minecraft:composter",
 				"minecraft:glow_item_frame",
 				"minecraft:item_frame",
 				"minecraft:ladder",
+				"minecraft:lectern",
 				"minecraft:painting",
 				"minecraft:petrified_oak_slab",
-				"minecraft:scaffolding",
-				"minecraft:cartography_table",
-				"minecraft:composter",
-				"minecraft:lectern"
+				"minecraft:scaffolding"
 			]
 		},
 		{
@@ -627,7 +627,7 @@
 				"minecraft:ghast_spawn_egg",
 				"minecraft:ghast_tear",
 				"minecraft:goat_horn",
-				"minecraft:goat_spawn_egg",				
+				"minecraft:goat_spawn_egg",
 				"minecraft:guardian_spawn_egg",
 				"minecraft:horse_spawn_egg",
 				"minecraft:husk_spawn_egg",
@@ -1008,7 +1008,7 @@
 				"minecraft:sculk",
 				"minecraft:sculk_vein",
 				"minecraft:sculk_catalyst",
-				"minecraft:sculk_shrieker"	
+				"minecraft:sculk_shrieker"
 			]
 		},
 		{
@@ -1300,7 +1300,7 @@
 		{
 			"group_name": "misc",
 			"item_frame": "minecraft:carrot_on_a_stick",
-			"note": "This is a special catch-all group, which receives all unsorted items when the system cannot find their proper homes.  Using this you can progressively build a sorting system over time, that only has some groups but not all.",
+			"note": "This is a special catch-all group, which receives all unsorted items when the system cannot find their proper homes.  Using this you can progressively build a sorting system over time, that only has some groups but not all. Do not rename or remove.",
 			"items": [
 				"minecraft:carrot_on_a_stick"
 			]

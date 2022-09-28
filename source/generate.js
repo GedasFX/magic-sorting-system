@@ -85,6 +85,9 @@ config.groups.forEach( function(group) {
 			);
 			total_items++;
 		} );
+
+		// Add the misc group at the end
+		sort_lines.push('execute as @s run function mss:sort_misc');
 	}
 	else console.error("ERROR: Invalid group, skipping: " + group_id);
 } );
