@@ -25,6 +25,26 @@
 			]
 		},
 		{
+			"group_name": "mud",
+			"item_frame": "minecraft:mud",
+			"fallback": "dirt",
+			"items": [
+				"minecraft:mud",
+				"minecraft:packed_mud"
+			]
+		},
+		{
+			"group_name": "mudwork",
+			"item_frame": "mud_bricks",
+			"fallback": "mud",
+			"items": [
+				"minecraft:mud_bricks",
+				"minecraft:mud_brick_slab",
+				"minecraft:mud_brick_stairs",
+				"minecraft:mud_brick_wall"
+			]
+		},
+		{
 			"group_name": "gravel",
 			"item_frame": "minecraft:gravel",
 			"fallback": "dirt",
@@ -113,7 +133,14 @@
 				"minecraft:stripped_crimson_hyphae",
 				"minecraft:stripped_warped_hyphae",
 				"minecraft:crimson_hyphae",
-				"minecraft:warped_hyphae"
+				"minecraft:warped_hyphae",
+				"minecraft:mangrove_log",
+				"minecraft:mangrove_roots",
+				"minecraft:muddy_mangrove_roots",
+				"minecraft:stripped_mangrove_log",
+				"minecraft:stripped_mangrove_wood",
+				"minecraft:mangrove_wood",
+				"minacraft:mangrove_planks"
 			]
 		},
 		{
@@ -233,7 +260,17 @@
 				"minecraft:crimson_door",
 				"minecraft:warped_door",
 				"minecraft:crimson_sign",
-				"minecraft:warped_sign"
+				"minecraft:warped_sign",
+				"minecraft:mangrove_slab",
+				"minecraft:mangrove_fence",
+				"minecraft:mangrove_stairs",
+				"minecraft:mangrove_pressure_plate",
+				"minecraft:mangrove_button",
+				"minecraft:mangrove_door",
+				"minecraft:mangrove_trapdoor",
+				"minecraft:mangrove_fence_gate",
+				"minecraft:mangrove_sign",
+				"minecraft:mangrove_boat"
 			]
 		},
 		{
@@ -489,7 +526,14 @@
 				"minecraft:light_gray_shulker_box",
 				"minecraft:white_shulker_box",
 				"minecraft:yellow_shulker_box",
-				"minecraft:barrel"
+				"minecraft:barrel",
+				"minecraft:oak_chest_boat",
+				"minecraft:spruce_chest_boat",
+				"minecraft:birch_chest_boat",
+				"minecraft:jungle_chest_boat",
+				"minecraft:acacia_chest_boat",
+				"minecraft:dark_oak_chest_boat",
+				"minecraft:mangrove_chest_boat"
 			]
 		},
 		{
@@ -626,7 +670,9 @@
 				"minecraft:nether_sprouts",
 				"minecraft:weeping_vines",
 				"minecraft:twisting_vines",
-				"minecraft:warped_wart_block"
+				"minecraft:warped_wart_block",
+				"minecraft:mangrove_propagule",
+				"minecraft:mangrove_leaves"
 			]
 		},
 		{
@@ -724,6 +770,8 @@
 				"minecraft:fermented_spider_eye",
 				"minecraft:ghast_spawn_egg",
 				"minecraft:ghast_tear",
+				"minecraft:goat_horn",
+				"minecraft:goat_spawn_egg",				
 				"minecraft:guardian_spawn_egg",
 				"minecraft:horse_spawn_egg",
 				"minecraft:husk_spawn_egg",
@@ -1100,7 +1148,11 @@
 				"minecraft:seagrass",
 				"minecraft:sponge",
 				"minecraft:tropical_fish",
-				"minecraft:wet_sponge"
+				"minecraft:wet_sponge",
+				"minecraft:sculk",
+				"minecraft:sculk_vein",
+				"minecraft:sculk_catalyst",
+				"minecraft:sculk_shrieker"	
 			]
 		},
 		{
@@ -1331,7 +1383,8 @@
 				"minecraft:repeating_command_block",
 				"minecraft:sculk_sensor",
 				"minecraft:sticky_piston",
-				"minecraft:tripwire_hook"
+				"minecraft:tripwire_hook",
+				"minecraft:sculk_sensor"
 			]
 		},
 		{
@@ -1358,20 +1411,8 @@
 			"item_frame": "minecraft:note_block",
 			"fallback": "misc",
 			"items": [
-				"minecraft:music_disc_11",
-				"minecraft:music_disc_13",
-				"minecraft:music_disc_blocks",
-				"minecraft:music_disc_cat",
-				"minecraft:music_disc_chirp",
-				"minecraft:music_disc_far",
-				"minecraft:music_disc_mall",
-				"minecraft:music_disc_mellohi",
-				"minecraft:music_disc_stal",
-				"minecraft:music_disc_strad",
-				"minecraft:music_disc_wait",
-				"minecraft:music_disc_ward",
-				"minecraft:music_disc_pigstep",
-				"minecraft:music_disc_otherside",
+				"minecraft:#music_discs",
+				"minecraft:disc_fragment_5",
 				"minecraft:note_block",
 				"minecraft:jukebox"
 			]
