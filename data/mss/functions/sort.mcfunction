@@ -205,6 +205,7 @@ execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:white_bed"}}] run 
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:yellow_bed"}}] run function mss:sort_woodwork
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:bookshelf"}}] run function mss:sort_office
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:filled_map"}}] run function mss:sort_office
+execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:firework_rocket"}}] run function mss:sort_office
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:map"}}] run function mss:sort_office
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:paper"}}] run function mss:sort_office
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:writable_book"}}] run function mss:sort_office
@@ -323,7 +324,6 @@ execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:diamond_hoe"}}] ru
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:diamond_pickaxe"}}] run function mss:sort_tools
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:diamond_shovel"}}] run function mss:sort_tools
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:fire_charge"}}] run function mss:sort_tools
-execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:firework_rocket"}}] run function mss:sort_tools
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:fishing_rod"}}] run function mss:sort_tools
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:flint_and_steel"}}] run function mss:sort_tools
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:golden_axe"}}] run function mss:sort_tools

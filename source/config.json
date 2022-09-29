@@ -264,6 +264,7 @@
 			"items": [
 				"minecraft:bookshelf",
 				"minecraft:filled_map",
+				"minecraft:firework_rocket",
 				"minecraft:map",
 				"minecraft:paper",
 				"minecraft:writable_book",
@@ -410,7 +411,6 @@
 				"minecraft:diamond_pickaxe",
 				"minecraft:diamond_shovel",
 				"minecraft:fire_charge",
-				"minecraft:firework_rocket",
 				"minecraft:fishing_rod",
 				"minecraft:flint_and_steel",
 				"minecraft:golden_axe",
