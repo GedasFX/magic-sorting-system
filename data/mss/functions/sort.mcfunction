@@ -2,10 +2,9 @@
 # Expects input @s from previous execute / run
 # 48 Groups: dirt, mud, mudwork, gravel, sand, sandstone, wood, woodwork, office, stone, stonework, coal, tools, weapons, decor, storage, armor, rails, plants, saplings, flowers, food, raw, mobs, heads, precious, lapis, magic, potions, books, wool, concrete, terracotta, glass, ice, ocean, coral, prismarine, ink, nether, smelt, ores, copper, redstone, end, music, candles, misc
 
-execute at @s unless score #mss_cooldown mss_cooldown matches 1 run playsound minecraft:entity.illusioner.mirror_move block @a[distance=..5] ~ ~ ~ 1.0 1.0
-execute at @s unless score #mss_cooldown mss_cooldown matches 1 run particle minecraft:entity_effect ~ ~ ~ 1 1 1 1 100
 scoreboard players set #mss_cooldown mss_cooldown 1
 
+execute as @s run function mss:sort_misc
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:coarse_dirt"}}] run function mss:sort_dirt
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:dirt"}}] run function mss:sort_dirt
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:grass_block"}}] run function mss:sort_dirt
@@ -1026,7 +1025,6 @@ execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:purpur_slab"}}] ru
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:purpur_stairs"}}] run function mss:sort_end
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:disc_fragment_5"}}] run function mss:sort_music
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:jukebox"}}] run function mss:sort_music
-execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:music_disc_11"}}] run function mss:sort_music
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:music_disc_11"}}] run function mss:sort_music
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:music_disc_13"}}] run function mss:sort_music
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:music_disc_blocks"}}] run function mss:sort_music

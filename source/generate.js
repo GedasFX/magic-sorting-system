@@ -43,6 +43,11 @@ var all_item_ids = {};
 var all_group_ids = {};
 var all_item_frame_ids = {};
 
+// Add the misc group at the start of the file.
+// This makes so that items will always be sorted as misc, and will be overwritten later.
+// Fixes issue where items never get teleported.
+sort_lines.push("execute as @s run function mss:sort_misc");
+
 config.groups.forEach(function (group) {
   var group_id = group.group_name.replace(/\W+/g, "");
   var items = group.items;
@@ -67,24 +72,13 @@ config.groups.forEach(function (group) {
     // create special sort mcfunction for group
     fs.writeFileSync(
       group_func_file,
-      'execute as @s if entity @e[type=minecraft:item_frame,nbt={Item:{id:"' +
-        target +
-        '"}},distance=0..' +
-        config.max_teleport_distance +
-        '] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,nbt={Item:{id:"' +
-        target +
-        '"}},distance=0..' +
-        config.max_teleport_distance +
-        "]" +
-        "\n" +
-        'execute as @s unless entity @e[type=minecraft:item_frame,nbt={Item:{id:"' +
-        target +
-        '"}},distance=0..' +
-        config.max_teleport_distance +
-        "] run " +
-        fallback_action +
-        "\n"
+      `execute as @s if entity @e[type=minecraft:item_frame,nbt={Item:{id:"${target}"}},distance=0..${config.max_teleport_distance}] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,nbt={Item:{id:"${target}"}},distance=0..${config.max_teleport_distance}]\n`
     );
+    fs.appendFileSync(
+      group_func_file,
+      `execute as @s unless entity @e[type=minecraft:item_frame,nbt={Item:{id:"${target}"}},distance=0..${config.max_teleport_distance}] run ${fallback_action}\n`
+    );
+
     console.log("Wrote file: " + Path.relative(__dirname, group_func_file));
 
     // add group's items to main sort routine
@@ -97,12 +91,10 @@ config.groups.forEach(function (group) {
       sort_lines.push('execute as @s if entity @s[type=item,nbt={Item:{id:"' + item_id + '"}}] run function mss:sort_' + group_id);
       total_items++;
     });
-
-  } else console.error("ERROR: Invalid group, skipping: " + group_id);
+  } else {
+    console.error("ERROR: Invalid group, skipping: " + group_id);
+  }
 });
-
-// Add the misc group at the end
-sort_lines.push("execute as @s run function mss:sort_misc");
 
 fs.writeFileSync(sort_func_file, sort_lines.join("\n") + "\n");
 

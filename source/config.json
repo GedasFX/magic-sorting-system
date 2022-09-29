@@ -1,10 +1,7 @@
 {
 	"max_teleport_distance": 128,
 	"final_fallback": "teleport @s @p",
-	"effects": [
-		"playsound minecraft:entity.illusioner.mirror_move block @a[distance=..5] ~ ~ ~ 1.0 1.0",
-		"particle minecraft:entity_effect ~ ~ ~ 1 1 1 1 100"
-	],
+	"effects": [],
 	"groups": [
 		{
 			"group_name": "dirt",
@@ -1346,7 +1343,6 @@
 			"items": [
 				"minecraft:disc_fragment_5",
 				"minecraft:jukebox",
-				"minecraft:music_disc_11",
 				"minecraft:music_disc_11",
 				"minecraft:music_disc_13",
 				"minecraft:music_disc_blocks",
