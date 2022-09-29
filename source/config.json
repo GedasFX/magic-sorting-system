@@ -698,7 +698,7 @@
 		},
 		{
 			"group_name": "food",
-			"item_frame": "minecraft:cooked_beef",
+			"item_frame": "minecraft:golden_carrot",
 			"fallback": "misc",
 			"items": [
 				"minecraft:apple",
