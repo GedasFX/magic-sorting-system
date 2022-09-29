@@ -387,7 +387,7 @@
 		{
 			"group_name": "coal",
 			"item_frame": "minecraft:coal",
-			"fallback": "misc",
+			"fallback": "lapis",
 			"items": [
 				"minecraft:charcoal",
 				"minecraft:coal",
@@ -409,6 +409,7 @@
 				"minecraft:diamond_hoe",
 				"minecraft:diamond_pickaxe",
 				"minecraft:diamond_shovel",
+				"minecraft:elytra",
 				"minecraft:fire_charge",
 				"minecraft:firework_rocket",
 				"minecraft:fishing_rod",
@@ -790,7 +791,7 @@
 		},
 		{
 			"group_name": "precious",
-			"item_frame": "minecraft:gold_ingot",
+			"item_frame": "minecraft:emerald",
 			"fallback": "misc",
 			"items": [
 				"minecraft:amethyst_block",
@@ -801,24 +802,30 @@
 				"minecraft:conduit",
 				"minecraft:diamond",
 				"minecraft:diamond_block",
-				"minecraft:elytra",
 				"minecraft:emerald",
 				"minecraft:emerald_block",
-				"minecraft:gold_block",
-				"minecraft:gold_ingot",
-				"minecraft:gold_nugget",
 				"minecraft:heart_of_the_sea",
-				"minecraft:iron_block",
-				"minecraft:iron_ingot",
-				"minecraft:iron_nugget",
 				"minecraft:large_amethyst_bud",
 				"minecraft:medium_amethyst_bud",
 				"minecraft:nether_star",
-				"minecraft:netherite_block",
-				"minecraft:netherite_ingot",
-				"minecraft:netherite_scrap",
 				"minecraft:obsidian",
 				"minecraft:small_amethyst_bud"
+			]
+		},
+		{
+			"group_name": "metals",
+			"item_frame": "minecraft:iron_ingot",
+			"fallback": "misc",
+			"items": [
+				"minecraft:gold_block",
+				"minecraft:gold_ingot",
+				"minecraft:gold_nugget",
+				"minecraft:iron_block",
+				"minecraft:iron_ingot",
+				"minecraft:iron_nugget",
+				"minecraft:netherite_block",
+				"minecraft:netherite_ingot",
+				"minecraft:netherite_scrap"
 			]
 		},
 		{
@@ -1210,7 +1217,7 @@
 		},
 		{
 			"group_name": "smelt",
-			"item_frame": "minecraft:iron_ingot",
+			"item_frame": "minecraft:raw_iron",
 			"fallback": "ores",
 			"items": [
 				"minecraft:ancient_debris",
@@ -1221,7 +1228,7 @@
 		},
 		{
 			"group_name": "ores",
-			"item_frame": "minecraft:raw_iron",
+			"item_frame": "minecraft:iron_ore",
 			"fallback": "misc",
 			"items": [
 				"minecraft:coal_ore",
@@ -1249,8 +1256,8 @@
 		},
 		{
 			"group_name": "copper",
-			"item_frame": "minecraft:raw_copper",
-			"fallback": "misc",
+			"item_frame": "minecraft:copper_ingot",
+			"fallback": "metals",
 			"items": [
 				"minecraft:copper_block",
 				"minecraft:copper_ingot",
