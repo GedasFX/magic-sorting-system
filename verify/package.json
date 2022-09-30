@@ -1,4 +1,10 @@
 {
+  "author": {
+    "name": "GedasFX"
+  },
+  "repository": {
+    "url": "https://github.com/GedasFX/magic-sorting-system"
+  },
   "name": "verify",
   "version": "1.0.0",
   "description": "Checks for missing items",

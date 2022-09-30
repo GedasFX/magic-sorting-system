@@ -2,6 +2,7 @@
 
 // Magic Sorting System
 // (c) 2018 - 2020 Joseph Huckaby, MIT License
+// (c) 2022 GedasFX, MIT License
 // Minecraft Data Pack Function Generator
 // Reads item sorting info from config.json and generates all .mcfunction files
 // Usage: node generate.js
