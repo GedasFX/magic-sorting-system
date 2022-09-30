@@ -4,8 +4,10 @@
   "description": "Checks for missing items",
   "main": "index.js",
   "license": "MIT",
+  "type": "module",
   "dependencies": {
     "jsdom": "^19.0.0",
+    "jszip": "^3.10.1",
     "node-fetch": "^3.2.4"
   },
   "devDependencies": {

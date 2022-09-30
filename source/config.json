@@ -232,7 +232,6 @@
 				"minecraft:purple_bed",
 				"minecraft:red_bed",
 				"minecraft:scaffolding",
-				"minecraft:sign",
 				"minecraft:spruce_boat",
 				"minecraft:spruce_button",
 				"minecraft:spruce_door",
@@ -402,7 +401,6 @@
 				"minecraft:axolotl_bucket",
 				"minecraft:bucket",
 				"minecraft:clock",
-				"minecraft:clownfish_bucket",
 				"minecraft:cod_bucket",
 				"minecraft:compass",
 				"minecraft:diamond_axe",
@@ -438,6 +436,7 @@
 				"minecraft:stone_hoe",
 				"minecraft:stone_pickaxe",
 				"minecraft:stone_shovel",
+				"minecraft:tadpole_bucket",
 				"minecraft:torch",
 				"minecraft:tropical_fish_bucket",
 				"minecraft:water_bucket",
@@ -485,12 +484,15 @@
 				"minecraft:lantern",
 				"minecraft:lodestone",
 				"minecraft:loom",
+				"minecraft:ochre_froglight",
+				"minecraft:pearlescent_froglight",
 				"minecraft:respawn_anchor",
 				"minecraft:smithing_table",
 				"minecraft:smoker",
 				"minecraft:soul_campfire",
 				"minecraft:soul_lantern",
-				"minecraft:stonecutter"
+				"minecraft:stonecutter",
+				"minecraft:verdant_froglight"
 			]
 		},
 		{
@@ -589,7 +591,6 @@
 			"item_frame": "minecraft:wheat_seeds",
 			"fallback": "misc",
 			"items": [
-				"minecraft:bamboo_sapling",
 				"minecraft:beetroot",
 				"minecraft:beetroot_seeds",
 				"minecraft:big_dripleaf",
@@ -629,7 +630,6 @@
 				"minecraft:spore_blossom",
 				"minecraft:sugar_cane",
 				"minecraft:sweet_berries",
-				"minecraft:sweet_berry_bush",
 				"minecraft:tall_grass",
 				"minecraft:vine",
 				"minecraft:warped_wart_block",
@@ -805,6 +805,7 @@
 				"minecraft:medium_amethyst_bud",
 				"minecraft:nether_star",
 				"minecraft:obsidian",
+				"minecraft:recovery_compass",
 				"minecraft:small_amethyst_bud",
 				"minecraft:totem_of_undying"
 			]
@@ -1153,9 +1154,7 @@
 				"minecraft:black_dye",
 				"minecraft:blue_dye",
 				"minecraft:brown_dye",
-				"minecraft:cactus_green",
 				"minecraft:cyan_dye",
-				"minecraft:dandelion_yellow",
 				"minecraft:glow_ink_sac",
 				"minecraft:gray_dye",
 				"minecraft:green_dye",
@@ -1168,7 +1167,6 @@
 				"minecraft:pink_dye",
 				"minecraft:purple_dye",
 				"minecraft:red_dye",
-				"minecraft:rose_red",
 				"minecraft:white_dye",
 				"minecraft:yellow_dye"
 			]
@@ -1351,6 +1349,7 @@
 			"items": [
 				"minecraft:disc_fragment_5",
 				"minecraft:jukebox",
+				"minecraft:music_disc_5",
 				"minecraft:music_disc_11",
 				"minecraft:music_disc_13",
 				"minecraft:music_disc_blocks",

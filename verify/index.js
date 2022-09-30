@@ -1,43 +1,37 @@
-const fetch = (...args) => import("node-fetch").then(({ default: fetch }) => fetch(...args));
-const path = require("path");
-const { JSDOM } = require("jsdom");
-const fs = require("fs");
+"use strict";
 
-const excludes = require("./excludes");
+import fs from "fs";
+import path from "path";
+import { fileURLToPath } from 'url';
+import JSZip from "jszip";
 
-/**
- * @param {string} url Wiki API url containing items
- * @returns {Promise<string[]>} Items
- */
-async function getItems(url) {
-  const response = await (await fetch(url)).json();
+import excludes from "./excludes.js";
 
-  const doc = new JSDOM(response.parse.text["*"]).window.document;
-  return Array.from(doc.getElementsByTagName("code")).map((e) => e.innerHTML);
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+if (process.argv.length != 3) {
+  console.error("Provide the path to Minecraft .jar file");
+  process.exit(1);
 }
 
-async function run() {
-  const items = await getItems(
-    "https://minecraft.fandom.com/api.php?action=parse&format=json&prop=text%7Cmodules%7Cjsconfigvars&title=Java_Edition_data_values&text=%7B%7B%3AJava%20Edition%20data%20values%2FItems%7D%7D"
-  );
+const jarFile = fs.readFileSync(process.argv[2]);
+const jar = await JSZip.loadAsync(jarFile);
 
-  const blocks = await getItems(
-    "https://minecraft.fandom.com/api.php?action=parse&format=json&prop=text%7Cmodules%7Cjsconfigvars&title=Java_Edition_data_values&text=%7B%7B%3AJava%20Edition%20data%20values%2FBlocks%7D%7D"
-  );
+var allItems = jar
+  .file(/^assets\/minecraft\/models\/item\//)
+  .map((i) => i.name)
+  .map((s) => s.match(/\/(\w+)\.json/)[1]);
 
-  const allItems = [...items, ...blocks];
-  const accountedFor = Array.from(fs.readFileSync(path.resolve(__dirname, "../source/config.json"), "utf-8").matchAll(/"minecraft:.*"/g)).map((e) =>
-    e[0].substring(1, e[0].length - 1)
-  );
+const accountedFor = Array.from(fs.readFileSync(path.resolve(__dirname, "../source/config.json"), "utf-8").matchAll(/"minecraft:.*"/g)).map((e) =>
+  e[0].substring(1, e[0].length - 1)
+);
 
-  const itemsUnaccountedFor = allItems.filter((i) => !(accountedFor.includes(`minecraft:${i}`) || excludes.some((e) => e.test(i))));
-  const wastedCpuCycles = accountedFor.filter(i => excludes.some(e => e.test(i)));
+const itemsUnaccountedFor = allItems.filter((i) => !(accountedFor.includes(`minecraft:${i}`) || excludes.some((e) => e.test(i))));
+const wastedCpuCycles = accountedFor.filter((i) => !allItems.includes(i.substring(10)));
 
-  console.log("Items to address:");
-  console.log(itemsUnaccountedFor);
+console.log("Items to address:");
+console.log(itemsUnaccountedFor);
 
-  console.log("Items to remove:");
-  console.log(wastedCpuCycles);
-}
-
-run();
+console.log("Items to remove:");
+console.log(wastedCpuCycles);
