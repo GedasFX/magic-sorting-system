@@ -1,3 +1,7 @@
+# Archival notice
+
+While this pack builder should support 1.20 and above because of the catch-all improvement. I found this datapack to be boring in plays, and will no longer use it.
+
 # Fork Notice:
 
 This is a fork from [Greaper88](https://github.com/Greaper88/magic-sorting-system)'s repository, with added item verifier which extracts items from `minecraft.jar` to account for all items. It also fixes the issue where items not present in the sorting config would never get sorted.
